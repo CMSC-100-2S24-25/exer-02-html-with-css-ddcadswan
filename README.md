@@ -7,7 +7,7 @@
 
 ## Live Website Link:
 
-Here is the link for my website portfolio: to edit
+Here is the link for my website portfolio: https://cmsc-100-2s24-25.github.io/exer-02-html-with-css-ddcadswan/
 
 ## Steps on How to Create GitHub Page
 
