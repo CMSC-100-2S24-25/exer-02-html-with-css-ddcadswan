@@ -7,9 +7,19 @@
 <html>
     <head>
         <style>
+            body{
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+                background-size: 100% 100%;
+
+            }
             h1 {
                 text-align: center;
                 font-size: 70px;
+            }
+            h2{
+                text-align: center;
+                font-size: 50px;
             }
             .intro {
                 font-size: 25px;
@@ -39,16 +49,34 @@
                 text-align: justify;
                 font-size: 22px;
             }
+
+            .Project{
+                width: 400px;
+                height: 355px;
+                background-color: white;
+                margin: 10px;
+            }
+            
+            #PROJECTS{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                
+            }
+            .projDescription{
+                text-align: center;
+                font-size: 22px;
+            }
         </style>
         <title>Cadsawan Personal Portfolio</title>
     </head>
 
-    <body>
+    <body background="mainBG.png">
         <h1>Personal Portfolio</h1>
         <div class="intro">
             <p style="text-indent: 50px"> This web page is a personal portfolio of <b>Dalton Ken D. Cadsawan</b>. This contains an autobiography, a featured photo, and details of the subject's skills related to management and web programming. In addition, it also entails the projects that the subject has worked on.</p>
         </div>
-        <hr />
+        <hr size="3" color="black"/>
         <div class="image">
             <img align ="left" src="cadsawanPic.jpeg" width="400" height="600"/>
         </div>
@@ -79,10 +107,37 @@
             <p style="text-indent: 50px"> With all of that being said, I would say that because of all the things that I have been through and experienced in life,
                 I was able to grow as a multifaceted person. I am able to balance work and life schedules and I am able to fill everything that I do with substance of meaningful purpose. In addition, because of being a conntent creator and being in front of a camera for almost 24/7 I was able to build my confidence and hone my oral communication skills by working with different brands with my current line of work. I believe that these attributes of mine that I was able to acquire would be very beneficial in a working environment.
             </p>
+        </div> <hr size="3" color="black"/>
+        <h2 text-alignment="center">Programmed Projects</h2>
+        <div class="projDescription">
+            <p style="text-align: center">
+                In this section, some of the recent projects that I have worked on are shown. These projects were done individually in different programming languages. 
+            </p>
         </div>
-        <div class="Project1">
-            <p></p>
-        </div>
+        <div id="PROJECTS">
+            <!-- Project 1 -->
+            <div class="Project">
+                <img src="Project1.png" width="400" height="300">
+                <div class="Container Center">
+                <p style="text-align: center">Elbi Express / Co-Multiplayer Game in Java</p>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="Project">
+                <img src="Project3.png" width="400" height="300">
+                <div class="Container Center">
+                <p style="text-align: center">UPLB Dining Recommender / Restaurant Recos in Python</p>
+                </div>
+            </div>
+            <!--Project 3 -->
+            <div class="Project">
+                <img src="Project2.png" width="400" height="300">
+                <div class="Container Center">
+                <p style="text-align: center">Diet Problem Solver / Optimal Diet Solution in RStudio</p>
+                </div>
+            </div>
+        </div> <br>
+        </div> <hr size="3" color="black"/>
 
     </body>
 
